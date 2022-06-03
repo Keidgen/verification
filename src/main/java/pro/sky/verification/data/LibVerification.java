@@ -1,4 +1,7 @@
-package pro.sky.verification.service;
+package pro.sky.verification.data;
+
+import pro.sky.verification.exceptions.WrongLoginException;
+import pro.sky.verification.exceptions.WrongPasswordException;
 
 public class LibVerification {
     public static boolean verify(String login, String password, String confirmPassword) {

@@ -1,6 +1,7 @@
 package pro.sky.verification.service;
 
 import org.springframework.stereotype.Service;
+import pro.sky.verification.data.LibVerification;
 
 @Service
 public class VerificationServiceImpl implements VerificationService{
